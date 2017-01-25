@@ -1,153 +1,157 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Дизайн-студия "Nerds"</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Дизайн-студия "Nerds"</title>
+</head>
+<body>
   <header class="main-header">
-   <div class="container">
-     <nav class="main-navigation">
-       <ul>
-         <li>
-           <a href="#">Студия</a>
-         </li>
-         <li>
-           <a href="#">Клиенты</a>
-         </li>
-         <li>
-           <a href="#">Магазин</a>
-         </li>
-         <li>
-           <a href="#">Контакты</a>
-         </li>
-       </ul>
-     </nav>
-     <div class="user-block">
-       <a class="login" href="#">Корзина</a>
+    <div class="container">
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Студия</a>
+          </li>
+          <li>
+            <a href="#">Клиенты</a>
+          </li>
+          <li>
+            <a href="#" class="select-nav">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a class="login" href="#">Корзина</a>
+      </div>
+    </div>
+    <h1>Магазин готовых шаблонов</h1>
+  </header>
+  <main class="container">
+    <div class="side-left">
+      <div class="parameters">
+         <div class="price">
+           <h3>Стоимость</h3>
+           <input type="range" min="1" max="15000">
+           <p>от<span>0</span>до<span>15000</span></p>
+         </div>
+         <div class="grid">
+           <h3>Сетка</h3>
+           <label>
+             <input type="radio" name="question-grid" value="adaptive">
+             Адаптивная
+           </label>
+           <label>
+             <input type="radio" name="question-grid" value="fixed">
+             Фиксированная
+           </label>
+           <label>
+             <input type="radio" name="question-grid" value="rubber">
+             Резиновая
+           </label>
+         </div>
+         <div class="specific">
+           <h3>Особенности</h3>
+           <label>
+             <input type="checkbox" name="question-spec" value="slider">
+             Слайдер
+           </label>
+           <label>
+             <input type="checkbox" name="question-spec" value="advantage">
+             Блок преимуществ
+           </label>
+           <label>
+             <input type="checkbox" name="question-spec" value="news">
+             Новости
+           </label>
+           <label>
+             <input type="checkbox" name="question-spec" value="galery">
+             Галерея
+           </label>
+           <label>
+             <input type="checkbox" name="question-spec" value="trash">
+             Корзина
+           </label>
+         </div>
+         <a href="#">Показать</a>
+       </div>
      </div>
-   </div>
-   <h1>Магазин готовых шаблонов</h1>
- </header>
- <main class="container">
-   <div class="parameters">
-     <div clase="price">
-       <h3>Стоимость</h3>
-       <input type="range" min="1" max="15000">
-       <p>от<span>0</span>до<span>15000</span></p>
+     <div class="side-right">
+       <div class="sort">
+         <h3>Сортировать:</h3>
+         <a href="#">По цене</a>
+         <a href="#">По типу</a>
+         <a href="#">По названию</a>
+         <a href="#">По убыванию</a>
+         <a href="#">По возрастанию</a>
+         <article>
+           <img src="http://placehold.it/150x100" alt="Sedona">
+           <h3>Sedona</h3>
+           <span> Информационный сайт для туристов</span>
+           <a href="#">9900 руб.</a>
+         </article>
+         <article>
+           <img src="http://placehold.it/150x100" alt="Name">
+           <h3>Name</h3>
+           <span>Информация</span>
+           <a href="#">Цена</a>
+         </article>
+         <article>
+           <img src="http://placehold.it/150x100" alt="Name">
+           <h3>Name</h3>
+           <span>Информация</span>
+           <a href="#">Цена</a>
+         </article>
+         <article>
+           <img src="http://placehold.it/150x100" alt="Name">
+           <h3>Name</h3>
+           <span>Информация</span>
+           <a href="#">Цена</a>
+         </article>
+         <article>
+           <img src="http://placehold.it/150x100" alt="Name">
+           <h3>Name</h3>
+           <span>Информация</span>
+           <a href="#">Цена</a>
+         </article>
+         <article>
+           <img src="http://placehold.it/150x100" alt="Name">
+           <h3>Name</h3>
+           <span>Информация</span>
+           <a href="#">Цена</a>
+         </article>
+       </div>
+       <div class="pages">
+         <a href="#" class="select-page">1</a>
+         <a href="#">2</a>
+         <a href="#">3</a>
+         <a href="#">Следующая</a>
+       </div>
      </div>
-     <div class="grid">
-       <h3>Сетка</h3>
-       <label>
-         <input type="radio" name="question-grid" value="adaptive">
-         Адаптивная
-       </label>
-       <label>
-         <input type="radio" name="question-grid" value="fixed">
-         Фиксированная
-       </label>
-       <label>
-         <input type="radio" name="question-grid" value="rubber">
-         Резиновая
-       </label>
+     <div class="community">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616366576!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1485244636277" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <div class="contacts side-left">
+         <p class="cont-main">Nёrds design studio</p>
+         <p>191186, Санкт-Петербург, ул. Б.Конюшенная,д. 19/8</p>
+         <p>тел. +7(812)275-75-75</p>
+         <a href="#">Напишите нам</a>
+       </div>
      </div>
-     <div class="specific">
-       <h3>Особенности</h3>
-       <label>
-         <input type="checkbox" name="question-spec" value="slider" multiple>
-         Слайдер
-       </label>
-       <label>
-         <input type="checkbox" name="question-spec" value="advantage" multiple>
-         Блок преимуществ
-       </label>
-       <label>
-         <input type="checkbox" name="question-spec" value="news" multiple>
-         Новости
-       </label>
-       <label>
-         <input type="checkbox" name="question-spec" value="galery" multiple>
-         Галерея
-       </label>
-       <label>
-         <input type="checkbox" name="question-spec" value="trash">
-         Корзина
-       </label>
+   </main>
+   <footer class="main-footer">
+     <div class="container">
+       <section class="footer-social side-left">
+         <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+       </section>
+       <section class="footer-copyright">
+         <h2>Давайте дружить, это выгодно!</h2>
+         <p>Скидка 10% для друзей из социальных сетей.</p>
+       </section>
      </div>
-     <a href="#">Показать</a>
-   </div>
-   <div class="sort">
-     <h3>Сортировать:</h3>
-     <a href="#">По цене</a>
-     <a href="#">По типу</a>
-     <a href="#">По названию</a>
-     <a href="#">По убыванию</a>
-     <a href="#">По возрастанию</a>
-     <article>
-       <img src="http://placehold.it/150x100" >
-       <h3>Sedona</h3>
-       <span> Информационный сайт для туристов</span>
-       <a href="#">9900 руб.</a>
-     </article>
-     <article>
-       <img src="http://placehold.it/150x100" >
-       <h3>Name</h3>
-       <span>Информация</span>
-       <a href="#">Цена</a>
-     </article>
-     <article>
-       <img src="http://placehold.it/150x100" >
-       <h3>Name</h3>
-       <span>Информация</span>
-       <a href="#">Цена</a>
-     </article>
-     <article>
-       <img src="http://placehold.it/150x100" >
-       <h3>Name</h3>
-       <span>Информация</span>
-       <a href="#">Цена</a>
-     </article>
-     <article>
-       <img src="http://placehold.it/150x100" >
-       <h3>Name</h3>
-       <span>Информация</span>
-       <a href="#">Цена</a>
-     </article>
-     <article>
-       <img src="http://placehold.it/150x100" >
-       <h3>Name</h3>
-       <span>Информация</span>
-       <a href="#">Цена</a>
-     </article>
-   </div>
-   <div class="pages">
-     <a href="#">1</a>
-     <a href="#">2</a>
-     <a href="#">3</a>
-     <a href="#">Следующая</a>
-   </div>
-   <div class="community">
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616366576!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1485244636277" width="auto" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-     <div class="contacts">
-       <p class="cont-main">Nёrds design studio</p>
-       <p>191186, Санкт-Петербург, ул. Б.Конюшенная,д. 19/8</p>
-       <p>тел. +7(812)275-75-75</p>
-       <a href="#">Напишите нам</a>
-     </div>
-   </div> 
- </main>
- <footer class="main-footer">
-   <div class="container">
-     <section class="footer-social">
-       <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-       <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-       <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-     </section>
-     <section class="footer-copyright">
-       <h2>Давайте дружить, это выгодно!</h2>
-       <p>Скидка 10% для друзей из социальных сетей.</p>
-     </section>
-   </div>
- </footer>
-</body>
+   </footer>
+ </body>
 </html>
