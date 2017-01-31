@@ -1,0 +1,274 @@
+body {
+  font-size: 14px;
+  font-family: "PTSans Narrow";
+  color: #000000;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.container {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 30px;
+  background-image: url("img/nerds-logo.png");
+  background-image: url("img/cart.png");
+  background-repeat: no-repeat;
+}
+
+.slider-name {
+  font-size: 55px;
+  font-family: "Roboto";
+  color: #000000;
+  line-height: 55px;
+  text-align: left;
+}
+
+.carousel-wrapper p {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #283136;
+  line-height: 24px;
+  text-align: left;
+}
+
+.carousel-wrapper a,
+.products a,
+.contacts a,
+.modalDialog submit,
+.catalog article a{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #ffffff;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.carousel-wrapper .slider1{
+  background-image: url("img/nerds-index-slide1.png");
+  background-repeat: no-repeat;
+}
+
+.carousel-wrapper .slider2{
+  background-image: url("img/nerds-index-slide2.png");
+  background-repeat: no-repeat;
+}
+
+.carousel-wrapper .slider3{
+  background-image: url("img/nerds-index-slide3.png");
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 55px;
+  font-family: "Roboto";
+  color: #000000;
+  line-height: 55px;
+  text-align: center;
+}
+
+.parameters h3{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+}
+
+.parameters label{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #283136;
+  line-height: 20px;
+  text-align: left;
+}
+.parameters submit{
+ font-size: 16px;
+ font-family: "Roboto";
+ color: #000000;
+ line-height: 18px;
+ text-align: center;
+}
+
+.sort{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+  opacity: 0.3;
+}
+
+.sort .sort-active{
+  opacity: 1;
+}
+
+.sort-active h3{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  }
+
+.catalog article h3{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: center;
+}
+
+.catalog article .aboutPr {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #666666;
+  line-height: 18px;
+  text-align: center;
+}
+
+
+.products h3 {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+}
+
+.products p {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #283136;
+  line-height: 24px;
+  text-align: left;
+}
+
+.about h2 {
+  font-size: 45px;
+  font-family: "Roboto";
+  color: #000000;
+  line-height: 45px;
+  text-align: left;
+}
+
+.about p {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #283136;
+  line-height: 24px;
+  text-align: left;
+}
+
+.list {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #283136;
+  line-height: 24px;
+  text-align: left;
+}
+
+.list h4,
+.statistics h4 {
+  font-size: 16px;
+  font-family: "Roboto";
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.statistics .proc {
+  font-size: 45px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  line-height: 10.06px;
+  text-align: left;
+}
+
+.explain{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #283136;
+  line-height: 18px;
+  text-align: left;
+}
+
+.cont-main{
+    font-size: 18px;
+    font-family: "Roboto";
+    color:#000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
+}
+
+.contacts p{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #666666;
+  line-height: 18px;
+  text-align: left;
+}
+
+.openModal h2{
+  font-size: 45px;
+  font-family: "Roboto";
+  color: #000000;
+  line-height: 45px;
+  text-align: left;
+}
+
+.openModal label{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: left;
+}
+
+.pages{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: center;
+}
+
+.footer-social{
+  background-image: url("img/vk.png");
+  background-image: url("img/fb.png");
+  background-image: url("img/insta.png");
+  background-repeat: no-repeat;
+}
+
+.footer-copyright h2{
+  font-size: 36px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: left;
+}
+
+.footer-copyright p{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #444444;
+  line-height: 22px;
+  text-align: left;
+}
